@@ -23,6 +23,7 @@ public class About extends ActionBarActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(About.this, Vision.class);
                 startActivity(intent);
+                finish();
             }
         });
 

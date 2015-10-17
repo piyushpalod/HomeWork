@@ -22,6 +22,7 @@ public class Vision extends ActionBarActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Vision.this, Login.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

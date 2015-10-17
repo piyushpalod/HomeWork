@@ -21,6 +21,7 @@ public class Login extends ActionBarActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Login.this, Home.class);
                 startActivity(intent);
+                finish();
             }
         });
     }
