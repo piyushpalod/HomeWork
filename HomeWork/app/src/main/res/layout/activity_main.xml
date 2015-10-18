@@ -4,12 +4,57 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
-
+    <!--
     <ImageView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
 
         android:src="@drawable/logo"
         />
+-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="HOMEWORK"
+        android:textColor="@color/material_deep_teal_500"
+        android:typeface="serif"
+        android:textSize="50dp"
+        android:id="@+id/textViewHomeWork"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/schoollogo"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/textViewHomeWork"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewHomeWork"
+        android:layout_centerHorizontal="true"
+        >
+    <ImageView
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:id="@+id/ImageViewLogo"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developed by AlpGeeks- Beyond Infinity"
+            android:layout_gravity="center"
+
+            />
+
+
+    </LinearLayout>
+
 
 </RelativeLayout>
